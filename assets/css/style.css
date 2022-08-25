@@ -1,0 +1,186 @@
+/* Space out content a bit */
+body {
+  padding: 0rem;
+}
+
+.bg-hospital {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/bg.jpg');
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.nav-pills .nav-link {
+  color: #343a40!important;
+}
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
+    color: #fff;
+    background-color: #343a40!important;
+}
+
+.header-area {
+  padding: 15px 0 15px 0;
+  background: #fff;
+}
+
+.callto-action-area .inner-content {
+  z-index: 100;
+    display: block;
+    height: 152px;
+    position: relative;
+    margin-top: -90px;
+    background: #ffffff;
+}
+.callto-action-area .inner-content .title-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 335px;
+    display: block;
+    padding: 80px 0 74px;
+    width: 100%;
+    height: 100%;
+}
+.callto-action-area .inner-content .form-holder {
+    border: 1px solid #f4f4f4;
+    display: block;
+    padding: 50px 30px 20px;
+    margin-bottom: 100px;
+}
+
+.callto-action-area .inner-content .form-holder .single-box.mar-right-30 {
+    margin-right: 30px;
+}
+
+.callto-action-area .inner-content .form-holder .single-box {
+    width: 330px;
+    margin-left: 100px;
+    float: left;
+}
+.callto-action-area .inner-content .form-holder .input-box {
+    position: relative;
+    margin-bottom: 21px;
+}
+
+.callto-action-area .inner-content .form-holder .input-box input[type="text"] {
+    width: 100%;
+    border: 1px solid #ececec;
+    background: #ffffff;
+    color: #848484;
+    height: 50px;
+    display: block;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Hind', sans-serif;
+    transition: all 500ms ease;
+    margin-bottom: 30px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.cascade {
+    display: none;
+}
